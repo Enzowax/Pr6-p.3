@@ -1,0 +1,10 @@
+﻿<Page x:Class="CinemaApp.Views.CheckoutPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Оплата">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Подтверждение" FontSize="20"/>
+        <TextBlock x:Name="TxtInfo" FontSize="16" Margin="10"/>
+        <Button Content="Купить" Click="Buy_Click" Height="40"/>
+    </StackPanel>
+</Page>
