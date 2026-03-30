@@ -28,11 +28,8 @@ namespace UnitTestProject
 
             bool duplicateResult = page.Registration("Тест Тестович", "Enzo", "anyPassword");
             Assert.IsFalse(duplicateResult);
-
             Assert.IsFalse(page.Registration("Имя", "", "пароль"));
-
             Assert.IsFalse(page.Registration("Имя", "login123", ""));
-
             Assert.IsFalse(page.Registration(" ", " ", " "));
         }
     }
